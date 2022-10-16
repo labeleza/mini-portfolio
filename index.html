@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Projeto Mini Portfólio</title>
+    
+    <link rel="shortcut icon" href="./src/icos/coffe.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+</head>
+<body>
+    <main class="cartao">
+        <div class="player">
+            <audio controls loop preload="none">
+                <source src="./src/audio/spc-eco-under-my-skin.mp3" type="audio/mp3">
+                <source src="./src/audio/spc-eco-under-my-skin.m4a" type="audio/m4a">
+            </audio>
+        </div>
+        <div class="minhas-informacoes">
+            <img src="src/imagens/foto-perfil.jpg" alt="Minha foto de perfil">
+            <h1 class="nome">Jean A.</h1>
+            <h2 class="cargo">Desenvolvedor Front-End Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="src/imagens/sobre.gif" alt="Ícone de Sobre Mim">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="src/imagens/coracao.gif" alt="Ícone de Redes Sociais">
+                </li>
+            </ul>
+            
+            <div class="informacoes-abas">
+                <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+                    <div class="descricao">
+                        <p>
+                            Olá! Meu nome é Jean A.
+                        </p>
+                        
+                        <p>
+                            Atualmente comecei a aprender programação e estou estudando <span>HTML, CSS e JavaScript</span>. Gosto de café (sem açucar), gosto de jogar jogos MMORPG, RPG, assistir animes, filmes e séries.
+                        </p>
+                    </div>
+                </div>
+               
+                <div class="informacao" id="informacao-minhas-redes">
+                    <h3 class="sub-titulo">Minhas Redes</h3>
+
+                    <ul class="redes-sociais">
+                        <li>
+                            <a class="curriculo" href="https://docs.google.com/" target="_blank" rel="noopener noreferrer">Currículo</a>
+                        </li>
+                        <li>
+                            <a class="linkedin" href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        </li>
+                        <li>
+                            <a class="github" href="https://github.com/labeleza" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
